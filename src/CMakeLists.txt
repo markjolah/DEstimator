@@ -15,7 +15,6 @@ add_shared_static_libraries(SOURCES ${SRCS}
 
 #Custom target settings for each lib_target created by add_shared_static_libraries()
 foreach(target IN LISTS lib_targets)
-    target_link_libraries(${target} PUBLIC BacktraceException::BacktraceException)
     target_link_libraries(${target} PUBLIC OpenMP::OpenMP_CXX)
     target_link_libraries(${target} INTERFACE Armadillo::Armadillo)
 endforeach()

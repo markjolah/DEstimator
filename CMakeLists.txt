@@ -9,7 +9,7 @@
 # See: LICENSE file
 
 cmake_minimum_required( VERSION 3.9 )
-project(Boxxer VERSION 0.1 LANGUAGES CXX)
+project(DEstimator VERSION 0.1 LANGUAGES CXX)
 
 option(BUILD_SHARED_LIBS "Build shared libraries" ON)
 option(BUILD_STATIC_LIBS "Build static libraries" OFF)
